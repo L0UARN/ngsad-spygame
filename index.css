@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Sedgwick+Ave+Display&display=swap');
+
+html, head, body {
+    margin: 0;
+    padding: 0;
+
+    background-color: #000000;
+}
+
+.main {
+    width: 80%;
+    height: 80%;
+
+    position: fixed;
+    left: 10%;
+    top: 10%;
+}
+
+.main img {
+    height: 100%;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hint img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hint p {
+    position: absolute;
+    left: 32px;
+    top: 32px;
+
+    padding: 0;
+    margin: 0;
+
+    color: #770000;
+    font-size: 32px;
+    font-family: 'Sedgwick Ave Display', cursive;
+
+    max-width: 170px;
+    word-wrap: break-word;
+}
+
+.hint input {
+    position: absolute;
+    top: 170px;
+    left: 32px;
+
+    width: 160px;
+
+    border: none;
+    background: none;
+
+    border-bottom: #000000 solid 2px;
+
+    margin: 0;
+    padding: 0;
+
+    color: #000000;
+    font-size: 24px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.hint_1 {
+    position: fixed;
+    left: 4%;
+    top: 3%;
+
+    margin: 0;
+    padding: 0;
+}
+
+.hint_2 {
+    position: fixed;
+    left: 80%;
+    top: 25%;
+
+    margin: 0;
+    padding: 0;
+}
+
+.hint_3 {
+    position: fixed;
+    left: 65%;
+    top: 70%;
+
+    margin: 0;
+    padding: 0;
+}
