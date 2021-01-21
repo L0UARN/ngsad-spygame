@@ -3,7 +3,7 @@ let progress = 0
 // Adds a "filter" to the base
 function add_filter() {
     let new_filter = document.createElement("img")
-    new_filter.src = `media/filter_${progress}.png`
+    new_filter.src = `../media/filter_${progress}.png`
     document.getElementById("stack").appendChild(new_filter)
 }
 
@@ -11,7 +11,7 @@ function add_filter() {
 async function flashes() {
     if (progress != 0) {
         let flash = document.createElement("img")
-        flash.src = `media/flash_${1 + Math.floor(Math.random() * progress)}.png`
+        flash.src = `../media/flash_${1 + Math.floor(Math.random() * progress)}.png`
         flash.style = `z-index: 666;`
                     + `position: fixed;`
                     + `top: ${Math.floor(Math.random() * 101)}%;`
@@ -61,14 +61,14 @@ async function background_noise() {
     let sound_switch = false
 
     let whitenoise_1 = new Howl({
-        src: ["media/whitenoise.mp3"],
+        src: ["../media/whitenoise.mp3"],
         autoplay: false,
         html5: true,
         volume: 0.0
     })
 
     let whitenoise_2 = new Howl({
-        src: ["media/whitenoise.mp3"],
+        src: ["../media/whitenoise.mp3"],
         autoplay: false,
         html5: true,
         volume: 0.0
