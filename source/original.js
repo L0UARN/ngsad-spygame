@@ -17,7 +17,7 @@ async function final_hint() {
     hint.className = "final_hint"
 
     let image = document.createElement("img")
-    image.src = "media/hint_1.png"
+    image.src = "media/hint_4.png"
 
     let input = document.createElement("input")
     input.type = "text"
