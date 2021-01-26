@@ -94,6 +94,41 @@ html, head, body {
     padding: 0;
 }
 
+.final_hint {
+    position: fixed;
+    left: 2%;
+    top: 65%;
+
+    margin: 0;
+    padding: 0;
+}
+
+.hint img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.final_hint input {
+    position: absolute;
+    top: 90px;
+    left: 32px;
+
+    width: 160px;
+
+    border: none;
+    background: none;
+
+    border-bottom: #000000 solid 2px;
+
+    margin: 0;
+    padding: 0;
+
+    color: #000000;
+    font-size: 24px;
+    font-family: 'Indie Flower', cursive;
+}
+
 .blocker {
     position: fixed;
     left: 0;

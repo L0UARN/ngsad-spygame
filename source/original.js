@@ -5,6 +5,34 @@ function add_filter() {
     let new_filter = document.createElement("img")
     new_filter.src = `media/filter_${progress}.png`
     document.getElementById("stack").appendChild(new_filter)
+
+    if (progress == 3) {
+        final_hint()
+    }
+}
+
+// Adds the final step of the puzzle to the page
+async function final_hint() {
+    let hint = document.createElement("div")
+    hint.className = "final_hint"
+
+    let image = document.createElement("img")
+    image.src = "media/hint_1.png"
+
+    let input = document.createElement("input")
+    input.type = "text"
+    input.id = "answer_4"
+
+    hint.appendChild(image)
+    hint.appendChild(input)
+    document.getElementById("root").appendChild(hint)
+
+    let answer_4 = document.getElementById("answer_4")
+    answer_4.addEventListener("keyup", (event) => {
+        if (answer_4.value.toLocaleLowerCase() == "cataclisme") {
+            window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        }
+    })
 }
 
 // Adds a flashing image to the page
