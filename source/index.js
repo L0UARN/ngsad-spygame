@@ -7,7 +7,7 @@
 
 // La méthode d'encryption est sans doute la plus simple que vous connaissez.
 // La clé est le résultat de cette équation (c'est donné à ce niveau là) : 32*x-64=0
-// Le message est : Fg"jcwv"gp"dcu"<"eëuct."xkigpêtg."gv"rnc{hckt0
+// Le message est : fg"jcwv"gp"dcu"<"eguct."rnc{hckt."xkigpgtg0
 
 const _0x4686 = [
     'ZkJmVmYwZkJmOCYXZkxmSSYW',
